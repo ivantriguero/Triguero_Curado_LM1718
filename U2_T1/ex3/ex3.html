@@ -1,0 +1,110 @@
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    </head>
+    <body>
+      <h2>A meeting room reservation form</h2><br>
+      Notice how the PHP code for the form remains basically unchanged, despite the template<br>
+      <form>
+        <table>
+          <tr bgcolor=" #d7dbdd ">
+            <td>
+              Your name:<font color="red">*</font>
+            </td>
+            <td>
+              <input type="text" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Your email address:<font color="red">*</font>
+            </td>
+            <td>
+              <input type="email" required>
+            </td>
+          </tr>
+          <tr bgcolor=" #d7dbdd ">
+            <td>
+              Departament:<font color="red">*</font>
+            </td>
+            <td>
+              <select name="Departament" size="1" required>
+            <option value="Select">-Select-</option>
+            <option value="1">Departament 1</option>
+            <option value="2">Departament 2</option>
+            <option value="3">Departament 3</option>
+            <option value="4">Departament 4</option>
+            <option value="5">Departament 5</option>
+          </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Which room woluld you like to reserve:<font color="red">*</font>
+            </td>
+            <td>
+              <input type="radio" name="rooms" value="Rooms"> Room A<br>
+              <input type="radio" name="rooms"value="Rooms"> Room B<br>
+              <input type="radio" name="rooms" value="Rooms"> Room C<br>
+            </td>
+          </tr>
+          <tr bgcolor=" #d7dbdd ">
+            <td>
+              Extra requirements:
+            </td>
+            <td>
+              <lable>
+              <input type="checkbox">Flipchart and pens</label>
+              <lable><br>
+              <input type="checkbox">Plasma TV screen</label>
+              <lable><br>
+              <input type="checkbox">Coffee, tea and mineral water</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Reservation date:<font color="red">*</font>
+            </td>
+            <td>
+              <input type="date" required>
+            </td>
+          </tr>
+          <tr bgcolor=" #d7dbdd ">
+            <td>
+              Reservation time:
+            </td>
+            <td>
+              <select name="time" size="1">
+            <option value="09">09</option>
+            <option value="1">10</option>
+            <option value="2">11</option>
+            <option value="3">12</option>
+            <option value="4">13</option>
+            <option value="5">14</option>
+            <option value="1">17</option>
+            <option value="2">18</option>
+            <option value="3">19</option>
+            <option value="4">20</option>
+            <option value="5">21</option>
+          </select>
+          <select name="min" size="1">
+        <option value="00">00</option>
+        <option value="1">15</option>
+        <option value="2">30</option>
+        <option value="3">45</option>
+      </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>
+              <input type="submit" value="Submit">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </body>
+</html>
